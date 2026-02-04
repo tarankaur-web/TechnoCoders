@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/phenomenon');
+body {
+    font-family: 'PHENOMENON', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #071523;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #071523;
+    padding: 10px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-btn {
+    background-color: #071523;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-btn:active {
+    transform: scale(0.98);
+}
+
+.hover-btn {
+    background-color: #c24308;
+    box-shadow: 0 4px 8px rgba(219, 83, 52, 0.3);
+}
+
+.hover-btn:hover {
+    background-color: #b95b29;
+    box-shadow: 0 6px 12px rgba(221, 82, 44, 0.497);
+    transform: translateY(-2px);
+}
+.header {
+    text-align: left;
+    padding-left: 30px;
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 48px;
+}   
+.main-btn:hover{
+    background-color: #b95b29;
+    box-shadow: 0 6px 12px rgba(221, 82, 44, 0.497);
+}
+.btn{
+    background-color: #c24308;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;     
+    font-style: serif;
+    transition: all 0.3s ease;
+}
+
+.btn-large {
+    padding: 16px 40px;
+    font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #b95b29;
+    box-shadow: 0 6px 12px rgba(221, 82, 44, 0.497);
+    transform: translateY(-2px);
+}
+
+
+.video-text-section {
+    margin-top: 60px;
+    padding: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.project-video {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #1a2a3a;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(196, 67, 8, 0.3);
+    order: 1;
+}
+
+./* Right Side Text Styling */
+.text-content {
+    color: white;
+    padding: 20px;
+}
+
+/* Title */
+.text-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+.text-subtitle {
+    color: #cfcfcf;
+    margin-bottom: 15px;
+}
+
+/* Paragraph */
+.text-paragraph {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* Links */
+.text-link {
+    color: #c24308;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    transition: 0.3s ease;
+}
+
+.text-link:hover {
+    color: #ff7b42;
+}
